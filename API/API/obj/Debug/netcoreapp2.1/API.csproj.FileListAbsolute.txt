@@ -1,0 +1,14 @@
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\bin\Debug\netcoreapp2.1\API.deps.json
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\bin\Debug\netcoreapp2.1\API.runtimeconfig.json
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\bin\Debug\netcoreapp2.1\API.runtimeconfig.dev.json
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\bin\Debug\netcoreapp2.1\API.dll
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\bin\Debug\netcoreapp2.1\API.pdb
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.csprojAssemblyReference.cache
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.csproj.CoreCompileInputs.cache
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.RazorAssemblyInfo.cache
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.RazorAssemblyInfo.cs
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.AssemblyInfoInputs.cache
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.AssemblyInfo.cs
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.RazorTargetAssemblyInfo.cache
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.dll
+C:\Users\ybsantos\Desktop\API\RestWithAspnetUdemy\API\API\obj\Debug\netcoreapp2.1\API.pdb
