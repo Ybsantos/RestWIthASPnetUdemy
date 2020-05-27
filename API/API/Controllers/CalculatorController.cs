@@ -10,8 +10,8 @@ namespace CalculatorController.Controllers {
     public class CalculatorController : ControllerBase {
 
 
-        // GET api/values/5/5
-        [HttpGet("{firstNumber}/{secondNumber}")]
+        // GET api/values/sum/5/5
+        [HttpGet("sum/{firstNumber}/{secondNumber}")]
         public IActionResult Sum(string firstNumber, string secondNumber) {
 
             if (isNumeric(firstNumber) && isNumeric(secondNumber)) {
@@ -21,6 +21,67 @@ namespace CalculatorController.Controllers {
             }
             return BadRequest("Invalid Input");
         }
+        // GET api/values/substraction/5/5
+        [HttpGet("substraction/{firstNumber}/{secondNumber}")]
+        public IActionResult Substraction(string firstNumber, string secondNumber) {
+
+            if (isNumeric(firstNumber) && isNumeric(secondNumber)) {
+                var substraction = Convert.ToDecimal(firstNumber) - Convert.ToDecimal(secondNumber);
+                return Ok(substraction.ToString());
+
+            }
+            return BadRequest("Invalid Input");
+        }
+
+        // GET api/values/multiplication/5/5
+        [HttpGet("substraction/{firstNumber}/{secondNumber}")]
+        public IActionResult Multiplication(string firstNumber, string secondNumber) {
+
+            if (isNumeric(firstNumber) && isNumeric(secondNumber)) {
+                var multiplication = Convert.ToDecimal(firstNumber) - Convert.ToDecimal(secondNumber);
+                return Ok(multiplication.ToString());
+
+            }
+            return BadRequest("Invalid Input");
+        }
+
+        // GET api/values/division/5/5
+        [HttpGet("substraction/{firstNumber}/{secondNumber}")]
+        public IActionResult Division(string firstNumber, string secondNumber) {
+
+            if (isNumeric(firstNumber) && isNumeric(secondNumber)) {
+                var division = Convert.ToDecimal(firstNumber) - Convert.ToDecimal(secondNumber);
+                return Ok(division.ToString());
+
+            }
+            return BadRequest("Invalid Input");
+        }
+
+        // GET api/values/mean/5/5
+        [HttpGet("substraction/{firstNumber}/{secondNumber}")]
+        public IActionResult Mean(string firstNumber, string secondNumber) {
+
+            if (isNumeric(firstNumber) && isNumeric(secondNumber)) {
+                var mean = Convert.ToDecimal(firstNumber) - Convert.ToDecimal(secondNumber);
+                return Ok(mean.ToString());
+
+            }
+            return BadRequest("Invalid Input");
+        }
+
+
+        // GET api/values/square-root/5/5
+        [HttpGet("square-root/{number}")]
+        public IActionResult SquareRoot(string number) {
+
+            if (isNumeric(number)) {
+                var squareRoot = Math.Sqrt((double)ConvertToDecimal(number));
+                return Ok(squareRoot.ToString());
+
+            }
+            return BadRequest("Invalid Input");
+        }
+
 
         private decimal ConvertToDecimal(string Number) {
             decimal decimalValue;
